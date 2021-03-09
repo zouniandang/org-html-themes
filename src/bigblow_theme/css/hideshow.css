@@ -19,12 +19,12 @@
 .hsExpanded.hsAnchor {background: #EE7700;}
 
 .buttons {
-    padding: 0px 7px 13px 0px;
-    background: #0A3F69;
+    padding: 0px 7px 16px 0px;
+    background: #ffffff;
 }
 
 .hsButton {
-    color: white;
+    color: #13679d;
     float: right;
     font-size: 70%;
     margin-left: 10px;

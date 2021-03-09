@@ -1,0 +1,83 @@
+#+AUTHOR: Duang.zou
+#+EMAIL: duang.zou@gmail.com
+
+#+SETUPFILE: org/theme-readtheorg.setup
+
+* ReadTheOrg
+
+** Using the theme
+
+base original project:
+
+#+begin_src org :exports code
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+#+HTML_HEAD: <style> #content{max-width:1600px;}</style>
+#+HTML_HEAD: <style>blockquote{border-left:1px solid #CCCCCC;padding: 25px 10px 1px 10px;background-color: #fcfcfc;color: #7a869a;}</style>
+#+HTML_HEAD: <style> #table-of-contents{overflow-y:auto;}</style>
+#+HTML_HEAD: <style> #table-of-contents h2{background-color:#343131;}</style>
+#+HTML_HEAD: <style>table thead th{border-top:1px solid #e1e4e5;}</style>
+#+HTML_HEAD: <style>table{border-left-style: none;border-right-style: none;}</style>
+#+HTML_HEAD: <style>#copyright, #postamble{background:#343131;}</style>
+#+end_src
+
+or base this project:
+
+#+begin_src org :exports code
+#+SETUPFILE: https://zouniandang.github.io/org-html-themes/org/theme-readtheorg.setup
+#+end_src
+
+** Preview
+
+#+ATTR_HTML: :width 640
+file:docs/my-readtheorg.png
+
+* Bigblow
+
+** Using the theme
+
+base original project:
+
+#+begin_src org :exports code
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+
+#+HTML_HEAD: <style> #content {max-width: 2000px;}</style>
+#+HTML_HEAD: <style>h1 {background-color: #ffffff;color: #13679d;padding: 9px 0px 0px 10px;}</style>
+#+HTML_HEAD: <style>h2 {border-bottom: 4px solid #B5DAF1;}</style>
+#+HTML_HEAD: <style>.buttons {padding: 0px 7px 16px 0px;background: #ffffff;}</style>
+#+HTML_HEAD: <style>.hsButton {color: #13679d;}</style>
+#+HTML_HEAD: <style>#tabs {background-color: #ffffff;}</style>
+#+HTML_HEAD: <style>#tabs li.ui-tabs-active a {color: #13679d;}</style>
+#+HTML_HEAD: <style>#tabs li a {color: #7a9aaf;}</style>
+#+HTML_HEAD: <style>table {margin-left: unset;}</style>
+#+HTML_HEAD: <style>table, th, td{border-left: 2px solid #e1e4e5;border-right: 2px solid #e1e4e5;border: 1px solid #e1e4e5;}</style>
+#+HTML_HEAD: <style>th{background-color: #f4f5f7;color: #333333;}</style>
+#+HTML_HEAD: <style>.example {background-color: #F8F8FF;border: 1px solid #DEDEDE;}</style>
+#+end_src
+
+or base this project:
+
+#+begin_src org :exports code
+#+SETUPFILE: https://zouniandang.github.io/org-html-themes/org/theme-bigblow.setup
+#+end_src
+
+** Preview
+
+#+ATTR_HTML: :width 640
+file:docs/my-bigblow.png
+
+* Combination
+
+** Using the theme
+
+combining ~ReadTheOrg~ and ~Bigblow~
+
+#+begin_src org :exports code
+#+SETUPFILE: https://zouniandang.github.io/org-html-themes/org/theme-readtheorg.setup
+#+SETUPFILE: https://zouniandang.github.io/org-html-themes/org/theme-bigblow.setup
+#+end_src
+
+** Preview
+
+#+ATTR_HTML: :width 640
+file:docs/my-combination.png
