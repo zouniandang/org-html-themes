@@ -30,7 +30,7 @@ or base this project:
 ** Preview
 
 #+ATTR_HTML: :width 640
-file:docs/my-readtheorg.png
+[[file:docs/my-readtheorg.png]]
 
 * Bigblow
 
@@ -64,7 +64,7 @@ or base this project:
 ** Preview
 
 #+ATTR_HTML: :width 640
-file:docs/my-bigblow.png
+[[file:docs/my-bigblow.png]]
 
 * Combination
 
@@ -80,4 +80,4 @@ combining ~ReadTheOrg~ and ~Bigblow~
 ** Preview
 
 #+ATTR_HTML: :width 640
-file:docs/my-combination.png
+[[file:docs/my-combination.png]]
